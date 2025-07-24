@@ -7,14 +7,22 @@
 }
 
 body {
-  max-width: 1440px;
-  min-height: 4239px;
+  width: 100%;
   margin: 0 auto;
-  padding: 0 16px;
+  padding: 0;
   background-color: #000000;
   font-family: 'Inter', sans-serif;
   color: #ffffff;
 }
+
+.container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+  box-sizing: border-box;
+}
+
 
 /* Header Style */
 .site-header {
@@ -123,7 +131,6 @@ body {
   }
 }
 
-
 /* Contact Button */
 .btn-contact {
   background-color: rgba(66, 26, 188, 1);
@@ -146,7 +153,7 @@ body {
 .hero {
   width: 100%;
   height: 750px;
-  padding: 0 140px;
+  padding: 80px 0;
   background: linear-gradient(180deg, #000000 5%, rgba(33, 10, 94, 0.3) 53.79%);
   display: flex;
   align-items: center;
@@ -222,7 +229,7 @@ body {
 /* C. Who We Are Section */
 .who-we-are {
   width: 100%;
-  padding: 80px 140px;
+  padding: 80px 0;
   background-color: #000000;
   display: flex;
   flex-direction: column;
@@ -257,7 +264,7 @@ body {
 /*---------------------------*/
 /* D. What We Do Section */
 .what-we-do {
-  padding: 80px 140px;
+  padding: 80px 0;
   background-color: #000;
   display: flex;
   flex-direction: column;
@@ -336,7 +343,7 @@ body {
 /*------------------------------*/
 /* E. Our Work Section */
 .our-work {
-  padding: 80px 140px;
+  padding: 80px 0;
   background-color: #000;
   display: flex;
   flex-direction: column;
@@ -397,7 +404,7 @@ body {
 /*---------------------------*/
 /* F. Meet the Team Section */
 .meet-the-team {
-  padding: 80px 140px;
+  padding: 80px 0;
   background-color: #000;
   display: flex;
   flex-direction: column;
@@ -467,7 +474,7 @@ body {
 /*------------------------------*/
 /* G. Let’s Collaborate Section (Form Version) */
 .lets-collaborate {
-  padding: 80px 140px;
+  padding: 80px 0;
   background-color: #000;
   display: flex;
   justify-content: center;
